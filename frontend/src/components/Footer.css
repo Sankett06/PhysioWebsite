@@ -1,0 +1,113 @@
+/* Footer container */
+/* Ensure body and html take full height */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+/* Main container that holds the content and footer */
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Full viewport height */
+}
+
+/* Ensure the main content area grows to fill space */
+.container {
+    flex: 1;
+}
+
+/* Footer styling (use your existing footer CSS here) */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Footer sections */
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+    /* margin-bottom: 20px; */
+}
+
+/* Footer section */
+.footer-section {
+    flex: 1;
+    margin: 0 20px;
+}
+
+/* Footer section heading */
+.footer-section h4 {
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Footer links */
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin: 10px 0;
+}
+
+.footer-links a {
+    color: #ddd;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #fff;
+}
+
+/* Social media icons */
+.footer-socials {
+    display: flex;
+    gap: 15px;
+}
+
+.footer-socials a {
+    color: #ddd;
+    font-size: 20px;
+    transition: color 0.3s;
+}
+
+.footer-socials a:hover {
+    color: #fff;
+}
+
+/* Footer bottom */
+.footer-bottom {
+    text-align: center;
+    /* margin-top: 20px; */
+}
+
+/* Responsive styling for mobile devices */
+@media screen and (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-section {
+        margin: 0 0 20px 0;
+        text-align: center;
+    }
+}

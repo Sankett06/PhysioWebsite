@@ -1,0 +1,120 @@
+/* Contact Us page styling */
+.contact-us {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+}
+
+/* Contact Intro section */
+.contact-intro {
+    background-color: #f9f9f9;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.contact-intro-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contact-intro h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.contact-intro p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Contact Form section */
+.contact-form {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.form-container {
+    max-width: 600px;
+    width: 100%;
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.form-container label {
+    display: block;
+    font-size: 16px;
+    margin: 10px 0 5px;
+}
+
+.form-container input,
+.form-container textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    border: 1.5px solid #ddd;
+    border-radius: 4px;
+}
+
+.form-container textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+.btn-primary {
+    background-color: #f05f40;
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #e04e3b;
+}
+
+.form-status {
+    font-size: 18px;
+    color: #28a745;
+    margin-bottom: 20px;
+}
+
+/* Contact Details section */
+.contact-details {
+    background-color: #f9f9f9;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.details-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.details-container h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.details-container p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.details-container i {
+    font-size: 20px;
+    color: #f05f40;
+    margin-right: 10px;
+}

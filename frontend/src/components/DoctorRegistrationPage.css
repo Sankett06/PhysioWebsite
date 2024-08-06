@@ -1,0 +1,46 @@
+/* DoctorRegistrationPage.css */
+
+.doctor-registration-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .doctor-registration-form h1 {
+    text-align: center;
+  }
+  
+  .doctor-registration-form label {
+    display: block;
+    margin: 10px 0 5px;
+  }
+  
+  .doctor-registration-form input,
+  .doctor-registration-form select,
+  .doctor-registration-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .doctor-registration-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .doctor-registration-form button:hover {
+    background-color: #0056b3;
+  }
+  

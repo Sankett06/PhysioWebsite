@@ -1,0 +1,41 @@
+.admin-dashboard {
+    padding: 20px;
+}
+
+.view-buttons {
+    margin-bottom: 20px;
+}
+
+.view-buttons button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.view-buttons button:hover {
+    background-color: #0056b3;
+}
+
+.appointment-table {
+    margin-top: 20px;
+}
+
+.appointment-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.appointment-table th, .appointment-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.appointment-table th {
+    background-color: #f4f4f4;
+    text-align: left;
+}

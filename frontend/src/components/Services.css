@@ -1,0 +1,64 @@
+/* Services page styling */
+.services {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+}
+
+/* Services Intro section */
+.services-intro {
+    background-image: url('/public/images/hero2.jpg') !important;
+    background-color: #f9f9f9;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.services-intro-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.services-intro h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.services-intro p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Service List section */
+.service-list {
+    padding: 60px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.service-item {
+    flex: 1;
+    max-width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.service-item i {
+    font-size: 40px;
+    color: #f05f40;
+    margin-bottom: 15px;
+}
+
+.service-item h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.service-item p {
+    font-size: 16px;
+    color: #666;
+}
